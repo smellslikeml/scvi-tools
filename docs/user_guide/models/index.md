@@ -19,6 +19,7 @@ methylanvi
 methylvi
 mrvi
 multivi
+nsf
 peakvi
 poissonvi
 resolvi

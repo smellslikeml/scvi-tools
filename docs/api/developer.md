@@ -213,6 +213,7 @@ Module classes in the external API with respective generative and inference proc
    external.drvi.SplitFCLayers
    external.drvi.LogNegativeBinomial
    external.drvi.StackedLinearLayer
+   external.nsf.NSFModule
    external.JointEmbeddingVAE
 ```
 

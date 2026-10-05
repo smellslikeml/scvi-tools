@@ -9,6 +9,10 @@ to [Semantic Versioning]. The full commit history is available in the [commit lo
 
 #### Added
 
+- Add {class}`scvi.external.NSF`, a clean-room implementation of Non-negative Spatial Factorization
+    (Townes & Engelhardt, [arXiv:2110.06122](https://arxiv.org/abs/2110.06122)): a Poisson factor model
+    whose spatial factors have Gaussian-process priors (sparse variational GP with inducing points) over
+    `adata.obsm["spatial"]`, {pr}`XXXX`.
 - Add a `residual` option to {class}`scvi.nn.FCLayers` that wraps every block except the first in
     a skip connection, whenever that block's input and output widths match. The first block is
     always excluded, so the flag needs `n_layers >= 2` to have any effect, {pr}`4019`.
