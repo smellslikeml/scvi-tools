@@ -64,6 +64,7 @@ import scvi
    external.Decipher
    external.TOTALANVI
    external.RESOLVI
+   external.NSF
    external.SysVI
    external.SCVIVA
    external.DIAGVI
