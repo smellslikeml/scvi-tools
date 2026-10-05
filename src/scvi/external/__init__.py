@@ -8,6 +8,7 @@ from .gimvi import GIMVI
 from .joint_embedding_scvi import JointEmbeddingSCVI, JointEmbeddingVAE
 from .methylvi import METHYLANVI, METHYLVI
 from .mrvi import MRVI
+from .nsf import NSF
 from .poissonvi import POISSONVI
 from .resolvi import RESOLVI
 from .scar import SCAR
@@ -46,5 +47,6 @@ __all__ = [
     "CYTOVI",
     "DIAGVI",
     "DRVI",
+    "NSF",
     "VIVS",
 ]
